@@ -1,0 +1,34 @@
+
+
+/*banner section*/
+
+/*mobile*/
+@media(min-width:320px){
+                      .container{width:100%;
+					  }
+					  /*card-section2*/
+					  
+}
+					  
+                     
+/*ipad*/
+@media(min-width:660px){
+                        .container{width:100%;
+						}
+						/*card-section*/
+						
+}
+						
+						
+					  
+ /*laptop*/
+@media(min-width:1000px){
+                        .container{width:80%;
+
+						}
+						/*card-section*/
+						.
+}
+
+
+					  

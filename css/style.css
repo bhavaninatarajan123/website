@@ -1,0 +1,171 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+ }
+ 
+.container{
+	       width:80%;
+           margin:auto;		   
+	      }
+/*header*/
+
+ .header-row{
+     display:flex;
+     /*justify-content:space-between;*/
+	padding:15px;
+    }
+	
+.Yummy{
+		  width:15%;
+	  }
+ul{
+  list-style-type:none;	
+  display:flex;
+  }  
+ li{
+	 padding:20px;
+   }
+   
+ nav{
+       width:70%;
+		display:flex;
+    }		
+	
+ .head-button{
+		width:15%;
+		padding-top:10px;
+	}
+.head-button a{
+	color:white;
+	padding:15px;
+	background-color:red;
+	 border-radius:50px;
+}
+		  
+/*banner*/
+#banner{ 
+       display:flex-inline;
+       }
+.banner-col{
+	display:flex;
+	flex:wrap;
+	padding:40px;
+ 	background-color:#dcdcdc;
+           }
+		   
+.text{
+	padding:100px;
+     }
+h1{padding:20px;}	
+
+h4 {padding:20px;}	
+ 
+button{
+	   color:white;
+	   border:20px;
+	   background-color:red;
+	   padding:10px 20px;
+	   border-radius:50px;
+	   padding-left:20px;
+	}
+
+
+.button{
+	padding-left:30px;
+	}	
+	
+	i{
+     color:red;
+     padding:5px;
+ }	
+ a{
+   text-decoration:none;
+   color:#000;
+ }
+ 
+ /*about us*/
+ /*
+ h3,h4{
+      text-align:center;
+      }
+	  
+#about{
+	  position:relative;
+      }
+.book{
+      position:absolute;
+      bottom:5%;
+      left:5%;	
+	  background-color:white;
+	  width:15%;
+	  text-align:center;
+	  padding:10px;
+	}
+	
+.us{
+     display:flex;
+     }	*/
+	 
+/*card*/
+
+#card{
+	
+	margin-top:30px;
+    }
+.card-col{width:25%;
+		  padding:20px 0px 20px;
+		  background-color:#dcdcdc;
+}	
+.card-row {
+	width:100%;
+	display:flex;
+     
+      }
+ .card-card{
+		width:90%;
+		height:100%;
+	   background-color:red;
+	   color:#fff;
+		
+		}
+.card-card-1{background-color:#ffff;}
+.card-card-1 h3{padding-top:10px;
+				padding-left:10px;
+}
+.card-card-1 i{border:2px solid pink;
+			   padding:10px;
+			   
+			   background-color:pink;
+			   border-radius:50%;
+}
+
+.icon{padding-left:40%;
+	   padding-top:10%;
+}
+h1{
+   padding:20px;
+   }
+.card-card-1{width:90%;
+			 height:100%;
+}   
+ .para1 p{
+ padding:20px;
+ 
+ }	 
+ .para p{
+		padding-left:20px;
+		padding-bottom:20px;
+     }
+card-col:hover{
+       transition:scale(1.2);
+           }
+
+.btn button{color:#000;
+			background-color:pink;
+
+}
+ button:hover{ 
+          background-color:white;
+           }
+.btn{padding-left:25%;}
